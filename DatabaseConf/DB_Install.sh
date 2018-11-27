@@ -1,5 +1,7 @@
 #!/bin/bash
 
+. ./BaseOSConf/Base_Install.sh
+
 #Downloads the rpm for my sql from the url
 wget https://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
 
