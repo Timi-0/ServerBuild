@@ -1,0 +1,1 @@
+The AppInstall folder includes a AppInstall.sh file. The AppInstall.sh file calls the BaseOSInstall.sh file to do the BaseOS configuration. The AppInstall.sh file also installs java-1.8.0-jdk and python 3.6.4 including dependencies they need function well. 
