@@ -1,4 +1,5 @@
 #!/bin/bash
+. ./BaseOSConf/Base_Install.sh
 yum -y install java-1.8.0-openjdk-devel
 yum groupinstall -y "development tools" 
 yum install -y libffi-devel zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel expat-devel
