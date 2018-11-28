@@ -1,5 +1,6 @@
 #!/bin/bash
 
+. ./BaseOSConf/Base_Install.sh
 #Installs the some dependencies for nagios
 yum install gd gd-devel gcc glibc glibc-common wget
 
