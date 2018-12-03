@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #Installs the appache service
-yum install -y httpd
+sudo yum install -y httpd
 
 #Starts the apache service
-service httpd start
+sudo service httpd start
 
 #Enables the httpd service to start on boot
-chkconfig httpd on
+sudo chkconfig httpd on
